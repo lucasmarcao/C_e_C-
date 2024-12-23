@@ -1,0 +1,133 @@
+Na linguagem C++ (CPP) , utilize esse código base para resolver os exercícios 
+que irei te passar, deixe bem comentado o código, e antes de começar o código 
+de cada exercício, de um resumo de apenas um paragrafo (esse resumo será um grande
+comentario dentro do codigo pedido: /*resumão: xxxx - codigo*/) 
+bem pequeno (5 até 7 linhas) de qual foi a sua linha de pensamento 
+para a resolução do problema, 
+para ter tempo de processar um melhor código possível, mas esse paragrafo-resumo 
+deve estar dentro do proprio codigo, exemplo: 
+"/*
+Descrição: exemplo exemplo exemplo, exemplo
+exemplo exemplo, exemplo exemplo
+exemplo exemplo exemplo, exemplo.
+*/"
+mas não deixe as linhas dos comentarios muito longas, 
+quebre as linhas antes de chegar no caracter 85.
+
+Código BASE:
+"
+/*
+descrição:
+*/
+#include <iostream> // Para entrada e saída
+#include <string>   // Para manipulação de strings
+#include <cstdlib>  // Para funções auxiliares como malloc (mas não é usada aqui)
+
+// default encurta codigo
+using namespace std;
+
+int main()
+{
+    cout << "\n\n"; // Espaço estratégico
+
+    // Início do programa
+
+    string str = "suco de uva"; // Usando string em vez de char*
+    int tam = str.length();     // string possui o método .length() para obter o tamanho
+    cout << tam;                // Mostra o tamanho da string
+
+    // Espaço estratégico
+    cout << "\n\n\a"; // Imprime uma nova linha e o alerta sonoro (beep)
+    return 0;
+}
+
+"  
+  
+
+   
+Exercicio:
+XXXXXXXXx.   
+     
+ 
+
+codigo do vectorlist:
+"
+//main.cpp
+#include <stdio.h>
+#include <stdlib.h>
+#include "vectorlist.h"
+
+int main() {
+    VectorList* list = new VectorList();
+    list->push_back(1);
+    list->push_back(2);
+    list->push_back(3);
+    list->print();
+
+    return 0;
+}
+"
+
+"
+//vectorlist.cpp
+#include "vectorlist.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+VectorList::VectorList() {
+    this->size = 0;
+    this->capacity = 5;
+    this->data = new int[this->capacity];
+}
+
+int VectorList::push_back(int elem) {
+    if (this->size == this->capacity) {
+        return 0;
+    }
+    this->data[this->size] = elem;
+    this->size++;
+    return 1;
+}
+
+void VectorList::print() {
+    printf("(%d/%d) ", this->size, this->capacity);
+    for (int i = 0; i < this->size; i++) {
+        printf("%d ", this->data[i]);
+    }
+    printf("\n");
+}
+"
+
+"
+//vectorlist.h
+#ifndef VECTORLIST_H
+#define VECTORLIST_H
+
+// Definicao do TAD Lista Sequencial
+
+struct VectorList {
+    int size;
+    int capacity;
+    int* data;
+
+    VectorList();
+    int push_back(int elem);
+    void print();
+};
+
+#endif
+"
+
+
+--------------------------------------------
+exemplo em C:
+"
+
+
+"
+
+
+// ABRIR NO TERMINAL INTEGRADO.
+//   g++ mainCPP.cpp -o mainCPP.exe
+//   ./mainCPP.exe
+

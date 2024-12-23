@@ -1,0 +1,17 @@
+No VScode, clicar no arquivo em
+abrir no terminal integrado.
+
+Para arquivos C puro:
+ -  gcc alt.c -o testeEmC.exe
+ -  ./testeEmC.exe 
+
+Para arquivos C++ vulgo ( CPP ):
+ -  g++ main.cpp -o testeEmCPP.exe
+ -  ./testeEmCPP.exe 
+
+
+para varios arquivos:
+ -
+ -
+
+kek.

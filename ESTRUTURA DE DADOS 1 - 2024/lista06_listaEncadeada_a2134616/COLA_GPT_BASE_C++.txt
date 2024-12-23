@@ -1,0 +1,52 @@
+Na linguagem C++ (CPP) , utilize esse código base para resolver os exercícios 
+que irei te passar, deixe bem comentado os código, e antes de começar o código 
+de cada exercício, de um resumo de apenas um paragrafo bem pequeno (5 até 7 linhas, 
+para ter tempo de processar um melhor código possível) de qual foi a sua linha de 
+pensamento para a resolução do problema.
+
+Código BASE:
+"
+
+/*
+descrição:
+*/
+#include <iostream> // Para entrada e saída
+#include <string>   // Para manipulação de strings
+#include <cstdlib>  // Para funções auxiliares como malloc (mas não é usada aqui)
+
+// default encurta codigo
+using namespace std;
+
+int main()
+{
+    cout << "\n\n"; // Espaço estratégico
+
+    // Início do programa
+
+    string str = "suco de uva"; // Usando string em vez de char*
+    int tam = str.length();     // string possui o método .length() para obter o tamanho
+    cout << tam;                // Mostra o tamanho da string
+
+    // Espaço estratégico
+    cout << "\n\n\a"; // Imprime uma nova linha e o alerta sonoro (beep)
+    return 0;
+}
+
+"
+
+
+Exercicio:
+XXXXXXXXx
+
+
+exemplo em C:
+"
+
+
+"
+
+
+// ABRIR NO TERMINAL INTEGRADO.
+//   g++ mainCPP.cpp -o mainCPP.exe
+//   ./mainCPP.exe
+

@@ -1,0 +1,40 @@
+Na linguagem C, utilize esse código base para resolver os exercícios que irei te passar, deixe bem comentado os código, e antes de começar o código de cada exercício, de um resumo de apenas um paragrafo bem pequeno (5 até 7 linhas, para ter tempo de processar um melhor código possível) de qual foi a sua linha de pensamento para a resolução do problema.
+
+Código BASE:
+"
+/*
+descrição: XXXxxxxXXX
+*/
+#include <stdio.h>
+// scanf("%d", &inteiro);
+#include <string.h>
+// strcat("Eu te ", " amo.");
+#include <stdlib.h>
+// p = (int *)malloc(sizeof(int));
+
+int main()
+{
+    printf("\n\n");
+    // espaço estrategico.
+
+    // Inicio do programa.
+
+    char frase[] = "suco de uva";
+    int tam = strlen(frase);
+    // len [11]
+    printf("%d \n", tam);
+
+    for (int i = 0; i < tam; i++)
+    {
+        printf("%c", frase[i]);
+    }
+
+    // espaço estrategico.
+    printf("\n\n\a");
+    return 0;
+}
+"
+
+Exercicio:
+
+Escreva

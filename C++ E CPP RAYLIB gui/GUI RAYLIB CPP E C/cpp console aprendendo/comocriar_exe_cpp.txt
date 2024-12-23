@@ -1,0 +1,7 @@
+
+
+vai na pasta pelo terminal seleciona o arquivo e::
+
+pra criar exe : gcc xxx.cpp -o xxxxx.exe -lstdc++
+
+pra executar exe: ./xxxx.exe

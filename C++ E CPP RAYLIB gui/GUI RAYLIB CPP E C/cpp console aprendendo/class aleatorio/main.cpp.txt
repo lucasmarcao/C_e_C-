@@ -1,0 +1,64 @@
+/*
+descrição:
+*/
+#include <stdio.h> // scanf()   printf()  FILE
+
+class Pessoa
+{
+public:
+    char nome[20];
+
+    float obterRenda()
+    {
+        return 99.0;
+    }
+};
+
+class PessoaFisica : public Pessoa
+{
+public:
+    char cpf[20];
+
+    float obterRenda()
+    {
+        return 1412.50;
+    }
+};
+
+class PessoaJuridica : public Pessoa
+{
+public:
+    char cnpj[20];
+
+    float obterRenda()
+    {
+        return 9999.50;
+    }
+};
+
+int main()
+{
+    printf("\n\n");
+    // espaço estrategico.
+
+    // Inicio do programa.
+
+    // int tam = strlen("suco de uva"); // len [11]
+    // printf("%d", tam);               // mostra o tamanho da String.
+
+    Pessoa *p = new Pessoa(); // *Pessoa (malloc())
+    PessoaFisica *pf = new PessoaFisica();
+    PessoaJuridica *pj = new PessoaJuridica();
+
+    p->obterRenda();
+
+    delete p;
+    delete pf;
+    delete pj;
+    // malloc() --> NEW
+    // free() ----> DELETE
+
+    // espaço estrategico.
+    printf("\n\n\a");
+    return 0;
+}

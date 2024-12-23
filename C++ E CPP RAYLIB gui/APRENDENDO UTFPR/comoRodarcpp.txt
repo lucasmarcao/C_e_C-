@@ -1,0 +1,19 @@
+
+pra vc criar um executavel c é assim.
+
+1-  abrir terminal no arquivo principal
+com o caminho certo
+
+2-  g++ main.cpp -o exemplo.exe
+
+3-  ./exemplo.exe
+
+(com versão especifica)
+4-  g++ -std=c++17 main.cpp -o exemplo.exe
+
+5-  ./exemplo.exe
+
+(outro jeitinho)
+6- executar na teclinha f6
+7- escolher o g++.exe nas options e aertar f6.
+8- aperte f6 sempre que quiser atualizar.

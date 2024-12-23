@@ -1,0 +1,12 @@
+
+vai na pasta pelo terminal seleciona o arquivo e::
+
+pra criar exe negocado varios: gcc xxxxxx.cpp |varios arquivos| -o xxxxxx.exe -lstdc++
+pra criar exe um: gcc xxxxxx.cpp -o xxxxxx.exe
+
+-lstdc++
+
+pra criar exe normar: gcc xxxxxx.cpp |varios arquivos| -o xxxxxx.exe
+-lstdc++
+
+pra executar exe:    ./xxxxx.exe

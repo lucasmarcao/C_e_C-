@@ -1,0 +1,16 @@
+
+video do indiano fazendo funcionar: https://www.youtube.com/watch?v=PaAcVk5jUd8
+
+primeiro copie o codigo do indiano git hub : https://github.com/educ8s/Raylib-CPP-Starter-Template-for-VSCODE-V2
+
+
+de git clone no git bash : 
+{ git clone https://github.com/educ8s/Raylib-CPP-Starter-Template-for-VSCODE-V2.git }
+
+vc vai copiar a pasta 
+
+C:\Users\Usuario\Documents\centro_vscode\aprendendoC\GUI raylib cpp\a_pastas_base\exemplo_pronto_v2
+
+ou 
+
+C:\Users\Usuario\Documents\centro_vscode\aprendendoC\GUI raylib cpp\a_pastas_base\exemplo_pronto_v1

@@ -1,0 +1,9 @@
+Na linguagem de programação C,   
+
+Peço que pense em um plano em forma de texto antes de começar 
+o código em si, nesse plano fale sobre as importações que vai 
+usar e como vai organizar a estrutura e funcionamento do código,
+ nesse plano descreva como realizar as 3 partes do código, 
+ entrada de dados, processamento de dados e a saída dos dados, 
+ explicando o raciocínio do algoritmo. Deixe 3 comentários 
+ dentro do código, sobre entrada, processamento e saída.
